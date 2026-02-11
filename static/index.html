@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анализатор Хешей</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/static/images/hacker.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hash Analysis</h1>
+            <a href="https://github.com/d3nisdevl" target="_blank" class="developer-link">d3nisdevl</a>
+        </header>
+        
+        <main>
+            <div class="card">
+                <div class="input-group">
+                    <label for="hash-input">Введите Хеш Для Анализа</label>
+                    <input type="text" id="hash-input" placeholder="Вставьте ваш хеш сюда (например: 926782667597d71479677e8aab0ad4dc)">
+                </div>
+                
+                <button id="analyze-btn">
+                    <span class="spinner" id="spinner"></span>
+                    <span id="btn-text">Анализировать Хеш</span>
+                </button>
+                
+                <div class="error-message" id="error-message"></div>
+            </div>
+            
+            <div class="card result" id="result">
+                <div class="result-header">
+                    <div class="result-icon" id="result-icon">?</div>
+                    <h2 class="result-title" id="result-title">Результат Анализа Хеша</h2>
+                </div>
+                
+                <div class="result-details" id="result-details">
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p><hr></p>
+        </footer>
+    </div>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>
