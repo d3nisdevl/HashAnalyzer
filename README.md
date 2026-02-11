@@ -9,7 +9,7 @@
 
 **Многофункциональный инструмент для идентификации и анализа криптографических хешей с двойным интерфейсом** 🔑
 
-![Скриншот интерфейса HashAnanlyzer](https://raw.githubusercontent.com/d3nisdevl/HashAnalyzer/main/image/Main.png)
+![Скриншот интерфейса HashAnanlyzer](https://raw.githubusercontent.com/d3nisdevl/HashAnalyzer/main/image/Console.png)
 
 ---
 
